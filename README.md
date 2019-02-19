@@ -35,20 +35,22 @@ npm i
  
  
  { 
- 
- "name": "string", 
- "phone": "string", 
- "person": {  
-  "firstName": {   
-    "type": "string"  
-    },  
-    "lastName": {   
-    "type": "string" 
-    }, 
-   }, 
-  "amount": "number", 
-  "date": "date", 
-  "costCenterNum": "string"
-  
+
+    "name": "string", 
+
+    "phone": "string", 
+    
+    "person": {  
+     "firstName": {   
+       "type": "string"  
+       },  
+       "lastName": {   
+       "type": "string" 
+       }, 
+      }, 
+     "amount": "number", 
+     "date": "date", 
+     "costCenterNum": "string"
+
   }
 
