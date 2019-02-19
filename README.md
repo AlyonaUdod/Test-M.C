@@ -33,9 +33,9 @@ For starting:
 5. If everything is ok - you will get 'origin_data' folder and 'result.json' near index.js. 
   Result JSON Object structure 
  
- {
-   {
+ 
    
+       {
        "name": "string", 
        "phone": "string", 
        "person": {  
@@ -49,7 +49,7 @@ For starting:
         "amount": "number", 
         "date": "date", 
         "costCenterNum": "string"
-        
-   }
+        }
+   
 
-}
+
