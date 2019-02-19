@@ -1,9 +1,6 @@
 
 This test application will help you to convert .csv files to one json file.
 
-For using you have to have zip archive or folder with .csv files. 
-No matter how many .csv and how many aren't .csv files, app work only with .csv.
-
 For starting:
 
 1. Make git clone this repository: 
