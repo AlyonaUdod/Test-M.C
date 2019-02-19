@@ -8,11 +8,11 @@ For starting:
 
 1. Make git clone this repository: 
 
-   git clone https://github.com/AlyonaUdod/Test-M.C.git
+      git clone https://github.com/AlyonaUdod/Test-M.C.git
 
 2. Inside repository folder install node_modules 
 
-   npm i
+      npm i
 
 
 3. Open index.js file. 
@@ -26,7 +26,7 @@ For starting:
 
 4. You ready to conver csv to json.
 
-  npm start.
+      npm start.
   
   Working status you can see in console.
   
@@ -35,18 +35,18 @@ For starting:
  
  
    {
-    "name": "string", 
-    "phone": "string", 
-    "person": {  
-     "firstName": {   
-       "type": "string"  
-       },  
-       "lastName": {   
-       "type": "string" 
-       }, 
-      }, 
-     "amount": "number", 
-     "date": "date", 
-     "costCenterNum": "string"
+       "name": "string", 
+       "phone": "string", 
+       "person": {  
+        "firstName": {   
+          "type": "string"  
+          },  
+          "lastName": {   
+          "type": "string" 
+          }, 
+         }, 
+        "amount": "number", 
+        "date": "date", 
+        "costCenterNum": "string"
    }
 
