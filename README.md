@@ -8,7 +8,8 @@ For starting:
 
 1. Make git clone this repository: 
 
-      git clone https://github.com/AlyonaUdod/Test-M.C.git
+  {    git clone https://github.com/AlyonaUdod/Test-M.C.git
+  }
 
 2. Inside repository folder install node_modules 
 
@@ -20,8 +21,11 @@ For starting:
    You can see 4 default constants for work: 
    
    3.1. inputZip - default 'Carrier_Integration_-_Data.zip' with .csv files inside into repository folder.
+   
    3.2. inputFolderWithCSV - default null. If you don't want to use .zip archive and want to use folder with .csv you can put this folder near index.js. After that change inputFolderWithCSV to folder name and inputZip to null.
+   
    3.3. outputZipFolder - default 'original_data'. After unzip process this folder will be created near index.js. 
+   
    3.4. resultFileName - defaul 'result'. It's name of result .json file. If you want to make different files from one archive/folder with .csv you have to change resultFileName every times. By default, every time result file has overwrited. 
 
 4. You ready to conver csv to json.
