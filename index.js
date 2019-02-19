@@ -1,6 +1,7 @@
-const filesToConvert = require('./filesToConvert')
+const unzip = require('./Modules/unzipDataModule');
 
-const dataPath = './Carrier_Integration_-_Data'
-const resultFileName = 'result'
+const inputZip = 'Carrier_Integration_-_Data.zip';
+const outputZipFolder = 'original_data';
+const resultFileName = 'result';
 
-filesToConvert.getFilesFromDir(dataPath, resultFileName)
+unzip.unzipData(inputZip, outputZipFolder, resultFileName)
