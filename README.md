@@ -1,5 +1,5 @@
 
-This test application will help you to convert .csv files to one json file.
+This test application will help you to convert initial .csv files to one json file.
 
 For starting:
 
@@ -10,7 +10,6 @@ For starting:
 2. Inside repository folder install node_modules 
 
       npm i
-
 
 3. Open index.js file. 
 
