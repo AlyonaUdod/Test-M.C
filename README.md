@@ -8,8 +8,7 @@ For starting:
 
 1. Make git clone this repository: 
 
-  {    git clone https://github.com/AlyonaUdod/Test-M.C.git
-  }
+      git clone https://github.com/AlyonaUdod/Test-M.C.git
 
 2. Inside repository folder install node_modules 
 
