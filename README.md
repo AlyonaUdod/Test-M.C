@@ -35,6 +35,7 @@ For starting:
  
  {
    {
+   
        "name": "string", 
        "phone": "string", 
        "person": {  
@@ -48,6 +49,7 @@ For starting:
         "amount": "number", 
         "date": "date", 
         "costCenterNum": "string"
+        
    }
 
 }
