@@ -31,7 +31,7 @@ For starting:
   Working status you can see in console.
   
 5. If everything is ok - you will get 'origin_data' folder and 'result.json' near index.js. 
-  Result JSON Object structure 
+  Result JSON Object structure:
  
  
    
