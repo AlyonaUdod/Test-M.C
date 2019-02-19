@@ -8,11 +8,11 @@ For starting:
 
 1. Make git clone this repository: 
 
-git clone https://github.com/AlyonaUdod/Test-M.C.git
+   git clone https://github.com/AlyonaUdod/Test-M.C.git
 
 2. Inside repository folder install node_modules 
 
-npm i
+   npm i
 
 
 3. Open index.js file. 
@@ -34,12 +34,9 @@ npm i
   Result JSON Object structure 
  
  
- { 
-
+   {
     "name": "string", 
-
     "phone": "string", 
-    
     "person": {  
      "firstName": {   
        "type": "string"  
@@ -51,6 +48,5 @@ npm i
      "amount": "number", 
      "date": "date", 
      "costCenterNum": "string"
-
-  }
+   }
 
