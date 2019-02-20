@@ -1,9 +1,9 @@
 const fs = require('fs');
 
-module.exports.writeDataToFile = function(data, fileName, counter){
+module.exports.writeDataToFile = function(data, fileName){
     const resultFile = `${fileName}.json`;
     
-    if (!fs.existsSync(resultFile) || counter === 0){
+    if (!fs.existsSync(resultFile)){
         fs.writeFileSync(resultFile, JSON.stringify(data), {encoding: 'utf8'});
     } else {
         let oldFile = JSON.parse(fs.readFileSync(resultFile, {encoding: 'utf8'}));

@@ -2,7 +2,7 @@ const unzip = require('./Modules/unzipDataModule');
 const filesToConvert = require('./Modules/filesToConvertModule');
 
 const inputZip = 'Carrier_Integration_-_Data.zip';
-const inputFolderWithCSV = nullz;
+const inputFolderWithCSV = null;
 const outputZipFolder = 'original_data';
 const resultFileName = 'result';
 
